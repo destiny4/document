@@ -12,44 +12,70 @@
 
 ### 商业对象树
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a841d4b695a?w=870&h=453&f=png&s=35773" alt="MPFNfU.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a841d4b695a?w=870&h=453&f=png&s=35773">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a841d4b695a?w=870&h=453&f=png&s=35773"  border="0" />
+  </a>
+
+
+
 
 &emsp;&emsp;首先在商业对象树上注册一个业务类型，然后会生成一个贯穿整个app自定义表单设计的唯一业务标识`buscode`。
 
 ### 表注册
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a84613de58c?w=1427&h=456&f=png&s=31538" alt="MPFw6J.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a84613de58c?w=1427&h=456&f=png&s=31538">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a84613de58c?w=1427&h=456&f=png&s=31538"  border="0" />
+  </a>
+
 
 &emsp;&emsp;在注册了商业对象树之后，然后在表注册这个界面注册对应业务类型的数据库表，这里新增的表，会同时在数据库中新建对应的空表。
 
 ### 列注册
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8430f2e65b?w=1586&h=720&f=png&s=89386" alt="MPFDmR.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8430f2e65b?w=1586&h=720&f=png&s=89386">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8430f2e65b?w=1586&h=720&f=png&s=89386"  border="0" />
+  </a>
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a844da5da0c?w=1407&h=750&f=png&s=87533" alt="MPF0X9.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a844da5da0c?w=1407&h=750&f=png&s=87533">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a844da5da0c?w=1407&h=750&f=png&s=87533"  border="0" />
+  </a>
 
 &emsp;&emsp;在这里添加对应表的字段，同时会在数据库中的对应表中增加相应字段，还有一张fg_columns表会存储表名和列对应的关系，以及每列的属性。
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8422f33f48?w=1906&h=202&f=png&s=48556" alt="MPmF9x.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8422f33f48?w=1906&h=202&f=png&s=48556">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8422f33f48?w=1906&h=202&f=png&s=48556"  border="0" />
+  </a>
 
 ### PC端设计器
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a844d2c9220?w=1327&h=502&f=png&s=35978" alt="MPFtYT.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a844d2c9220?w=1327&h=502&f=png&s=35978">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a844d2c9220?w=1327&h=502&f=png&s=35978"  border="0" />
+  </a>
 
 &emsp;&emsp;在这个界面选择对应的业务类型，增加app自定义设计的方案，一个业务类型可以有多个方案，每次启用的只有一个，即展示给用户看的只有一个。保存好方案描述信息之后，选择对应方案，点击界面设计即可开始设计app的界面。
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a866b837ccc?w=1613&h=932&f=png&s=129914" alt="MPFdl4.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a866b837ccc?w=1613&h=932&f=png&s=129914">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a866b837ccc?w=1613&h=932&f=png&s=129914"  border="0" />
+  </a>
 
 &emsp;&emsp;设计界面由左边的工具箱和中间交互设计界面，右边属性面板组成。
 
 <div style='display:flex;justify-content:center'>
-   <img style='flex-grow:0' src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8626208f83?w=213&h=211&f=png&s=7510" alt="MPFYkV.png" border="0" /> 
-    <img style='flex-grow:0' src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8618646b40?w=206&h=234&f=png&s=5749" alt="MPF8wq.png" border="0" />
-    <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a865753aae4?w=199&h=169&f=png&s=4546" alt="MPFlOs.png" border="0" style='flex-grow:0'/>
-    <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8611f4ccdc?w=223&h=176&f=png&s=4891" alt="MPFapF.png" border="0" style='flex-grow:0' />
+   <a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8626208f83?w=213&h=211&f=png&s=7510">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8626208f83?w=213&h=211&f=png&s=7510"  border="0" />
+  </a> 
+    <a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8618646b40?w=206&h=234&f=png&s=5749">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8618646b40?w=206&h=234&f=png&s=5749"  border="0" />
+  </a>
+    <a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a865753aae4?w=199&h=169&f=png&s=4546">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a865753aae4?w=199&h=169&f=png&s=4546"  border="0" />
+  </a>
+    <a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8611f4ccdc?w=223&h=176&f=png&s=4891">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a8611f4ccdc?w=223&h=176&f=png&s=4891"  border="0" />
+  </a>
 </div>
 
-![MPF3mn.png](https://user-gold-cdn.xitu.io/2019/11/6/16e40a86adab5de2?w=210&h=716&f=png&s=30393)
+<a data-fancybox title="MPF3mn.png" href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86adab5de2?w=210&h=716&f=png&s=30393">![MPF3mn.png](https://user-gold-cdn.xitu.io/2019/11/6/16e40a86adab5de2?w=210&h=716&f=png&s=30393)</a>
 
 
 
@@ -57,11 +83,15 @@
 
 &emsp;&emsp;在主界面中拖拽容器控件和各种组件控件以及字段，设计好展示界面之后，可以在主界面的中间设计部分的编辑代码tab页，添加二开脚本。
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f0b0d9ec?w=585&h=217&f=png&s=15211" alt="MPFGT0.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f0b0d9ec?w=585&h=217&f=png&s=15211">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f0b0d9ec?w=585&h=217&f=png&s=15211"  border="0" />
+  </a>
 
 &emsp;&emsp;这里添加的脚本最终我会生成到app的运行代码中的页面完成事件中
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f3263c08?w=591&h=253&f=png&s=24464" alt="MPJ6EV.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f3263c08?w=591&h=253&f=png&s=24464">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f3263c08?w=591&h=253&f=png&s=24464"  border="0" />
+  </a>
 
 ### 代码生成
 
@@ -75,23 +105,33 @@
 
 &emsp;&emsp;部分模板代码和生成文件代码效果如下：
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87c6bfd58e?w=653&h=697&f=png&s=50187" alt="MimOts.png" border="0">
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87c6bfd58e?w=653&h=697&f=png&s=50187">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87c6bfd58e?w=653&h=697&f=png&s=50187"  border="0" />
+  </a>
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f2ee7f82?w=790&h=941&f=png&s=80499" alt="MimXhn.png" border="0">
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f2ee7f82?w=790&h=941&f=png&s=80499">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a86f2ee7f82?w=790&h=941&f=png&s=80499"  border="0" />
+  </a>
 &emsp;&emsp;上面的是生成的controller代码，完整的还包括model，store，view的代码，因为SenCha Touch是一种前端的MVC模式。
 
 列表界面部分代码示例
-<img src="https://user-gold-cdn.xitu.io/2020/4/3/1713dffb82fe8edc?w=1522&h=1930&f=png&s=275092" alt="listview" border="0">
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2020/4/3/1713dffb82fe8edc?w=1522&h=1930&f=png&s=275092">
+  <img src="https://user-gold-cdn.xitu.io/2020/4/3/1713dffb82fe8edc?w=1522&h=1930&f=png&s=275092"  border="0" />
+  </a>
 
 编辑界面部分代码示例
 
-<img src="https://user-gold-cdn.xitu.io/2020/4/3/1713dffba94b949d?w=720&h=1942&f=png&s=191636" alt="editview" border="0">
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2020/4/3/1713dffba94b949d?w=720&h=1942&f=png&s=191636">
+  <img src="https://user-gold-cdn.xitu.io/2020/4/3/1713dffba94b949d?w=720&h=1942&f=png&s=191636"  border="0" />
+  </a>
 
 #### App效果预览
 
 &emsp;&emsp;为了方便用户设计好界面，并生成好了代码之后可以立马查看在App中的实际效果，我还做了一个App的调试界面，这个界面的显示效果跟在App上显示的效果是一模一样的。用户可以在这里预览，看看是不是他要的效果，或者有没有缺字段，或者二开脚本有没有起作用。
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a872be12e88?w=447&h=837&f=png&s=32271" alt="MinHv6.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a872be12e88?w=447&h=837&f=png&s=32271">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a872be12e88?w=447&h=837&f=png&s=32271"  border="0" />
+  </a>
 
 #### 手机拉取
 
@@ -99,13 +139,17 @@
 
 &emsp;&emsp;在后台生成app代码的时候，我同时会将代码的存放位置，以及当前的账套号，代码版本号，业务类型存到`fg_appformenu`这个表里面。
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87b979e1f6?w=1333&h=103&f=png&s=20988" alt="MiKQfA.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87b979e1f6?w=1333&h=103&f=png&s=20988">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87b979e1f6?w=1333&h=103&f=png&s=20988"  border="0" />
+  </a>
 
 &emsp;&emsp;然后app每次从这个表里面拉取数据，获取到有多少个自定义表单以及每个自定义表单的代码存放地址，然后从服务器的对应目录上热加载代码并运行，得到展示效果。
 
 &emsp;&emsp;下图是生成代码目录的结构：
 
-<img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87c3a526f1?w=650&h=24&f=png&s=4471" alt="MiKsXV.png" border="0" />
+<a data-fancybox  href="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87c3a526f1?w=650&h=24&f=png&s=4471">
+  <img src="https://user-gold-cdn.xitu.io/2019/11/6/16e40a87c3a526f1?w=650&h=24&f=png&s=4471"  border="0" />
+  </a>
 
 ## 总结
 

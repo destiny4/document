@@ -20,9 +20,9 @@
 
 > 必须要先设计好APP自定义表单，内嵌查询只是一个APP自定义表单里面的一个高级查询控件。
 
-![M68c5R.gif](https://user-gold-cdn.xitu.io/2019/11/19/16e81a34034fbe40?w=1087&h=687&f=gif&s=479126)
+<a data-fancybox title="M68c5R.gif" href="https://user-gold-cdn.xitu.io/2019/11/19/16e81a34034fbe40?w=1087&h=687&f=gif&s=479126">![M68c5R.gif](https://user-gold-cdn.xitu.io/2019/11/19/16e81a34034fbe40?w=1087&h=687&f=gif&s=479126)</a>
 
-![MgPjDf.gif](https://user-gold-cdn.xitu.io/2019/11/19/16e82470e691c819?w=457&h=585&f=gif&s=153664)
+<a data-fancybox title="MgPjDf.gif" href="https://user-gold-cdn.xitu.io/2019/11/19/16e82470e691c819?w=457&h=585&f=gif&s=153664">![MgPjDf.gif](https://user-gold-cdn.xitu.io/2019/11/19/16e82470e691c819?w=457&h=585&f=gif&s=153664)</a>
 
 > gif画质失真，UI显示有格子，以及背景有重影。
 
@@ -46,7 +46,7 @@
 
 1. 搜索框界面初始化，定义一个搜索文本框，搜索按钮，高级按钮，以及一个绝对定位的清空图标
 
-![MgZ5QJ.png](https://user-gold-cdn.xitu.io/2019/11/19/16e82470c10b51c5?w=444&h=48&f=png&s=2218)
+<a data-fancybox title="MgZ5QJ.png" href="https://user-gold-cdn.xitu.io/2019/11/19/16e82470c10b51c5?w=444&h=48&f=png&s=2218">![MgZ5QJ.png](https://user-gold-cdn.xitu.io/2019/11/19/16e82470c10b51c5?w=444&h=48&f=png&s=2218)</a>
 
 2. 给控件添加事件
 
@@ -173,11 +173,11 @@
 
    - queryInfo数据格式
 
-     ![MgDNGT.png](https://user-gold-cdn.xitu.io/2019/11/19/16e82470d21614f5?w=887&h=670&f=png&s=35492)
+     <a data-fancybox title="MgDNGT.png" href="https://user-gold-cdn.xitu.io/2019/11/19/16e82470d21614f5?w=887&h=670&f=png&s=35492">![MgDNGT.png](https://user-gold-cdn.xitu.io/2019/11/19/16e82470d21614f5?w=887&h=670&f=png&s=35492)</a>
 
 4. 根据queryInfo的数据渲染出控件的查询界面
 
-   ![MgrGOH.png](https://user-gold-cdn.xitu.io/2019/11/19/16e82470c0ee158c?w=458&h=465&f=png&s=10723)
+   <a data-fancybox title="MgrGOH.png" href="https://user-gold-cdn.xitu.io/2019/11/19/16e82470c0ee158c?w=458&h=465&f=png&s=10723">![MgrGOH.png](https://user-gold-cdn.xitu.io/2019/11/19/16e82470c0ee158c?w=458&h=465&f=png&s=10723)</a>
 
 ### 查询取值
 
