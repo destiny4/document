@@ -35,7 +35,7 @@ module.exports = {
     sidebar: [
       {
         title: '项目', // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 2, // 可选的, 默认值是 1
         children: [
           ['/skyxchen/项目/fbi工作流', 'fbi工作流'],
@@ -56,7 +56,7 @@ module.exports = {
       {
         title: '项目沉淀', // 必要的
         // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 2, // 可选的, 默认值是 1
         children: [
           ['/skyxchen/项目沉淀/CSS相关/CSS技巧', 'CSS技巧'],
@@ -77,7 +77,7 @@ module.exports = {
       {
         title: '前端基础', // 必要的
         // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 2, // 可选的, 默认值是 1
         children: [
           ['/skyxchen/前端基础/浏览器的回流与重绘', '浏览器的回流与重绘'],
@@ -90,12 +90,19 @@ module.exports = {
       {
         title: 'React', // 必要的
         // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 2, // 可选的, 默认值是 1
         children: [
           ['/skyxchen/React/react基础', 'react基础'],
           ['/skyxchen/React/react扩展', 'react扩展']
         ]
+      },
+      {
+        title: 'Node', // 必要的
+        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [['/skyxchen/Node/Node脚手架常用模块', 'Node脚手架常用模块']]
       },
       ['/skyxchen/progress', 'progress'],
       ['/skyxchen/markdown格式化工具', 'markdown格式化工具']
