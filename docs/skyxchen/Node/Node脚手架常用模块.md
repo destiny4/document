@@ -484,4 +484,17 @@ semver.valid(semver.coerce('v2')) // '2.0.0'
 semver.valid(semver.coerce('42.6.7.9.3-alpha')) // '42.6.7'
 ```
 
+## prettier
 
+> 格式化输出
+
+```js
+const ejs = require('ejs')
+const prettier = require('prettier')
+
+const tmp = ejs.render('module.exports=<%-data%>', {
+  data: JSON.stringify(config)
+})
+
+const t = prettier.format(tmp, { semi: false,trailingComma: 'none', parser: 'babel' })
+```

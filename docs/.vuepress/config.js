@@ -102,7 +102,10 @@ module.exports = {
         // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 2, // 可选的, 默认值是 1
-        children: [['/skyxchen/Node/Node脚手架常用模块', 'Node脚手架常用模块']]
+        children: [
+          ['/skyxchen/Node/Node脚手架常用模块', 'Node脚手架常用模块'],
+          ['/skyxchen/Node/AST开发', 'AST开发']
+        ]
       },
       ['/skyxchen/progress', 'progress'],
       ['/skyxchen/markdown格式化工具', 'markdown格式化工具']
