@@ -107,8 +107,9 @@ module.exports = {
           ['/skyxchen/Node/AST开发', 'AST开发']
         ]
       },
-      ['/skyxchen/progress', 'progress'],
-      ['/skyxchen/markdown格式化工具', 'markdown格式化工具']
+      ['/skyxchen/easy-cli', 'easy-cli'],
+      ['/skyxchen/markdown格式化工具', 'markdown格式化工具'],
+      ['/skyxchen/常用算法', '常用算法']
     ]
   }
 }
