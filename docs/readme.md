@@ -6,7 +6,7 @@ heroImage: /me.png
 # 按钮文本
 actionText: 开始学习 →
 # 按钮点击跳转路径
-actionLink: '/skyxchen/项目/fbi工作流'
+actionLink: '/skyxchen/easy-cli'
 ---
 
 [github](https://github.com/destiny4)

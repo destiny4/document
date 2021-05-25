@@ -33,47 +33,8 @@ module.exports = {
     logo: '/me.jpeg',
     nav: [{ text: '主页', link: '/' }],
     sidebar: [
-      {
-        title: '项目', // 必要的
-        collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 2, // 可选的, 默认值是 1
-        children: [
-          ['/skyxchen/项目/fbi工作流', 'fbi工作流'],
-          ['/skyxchen/项目/平潭深度画像系统', '平潭深度画像系统'],
-          ['/skyxchen/项目/腾讯文旅开放平台', '腾讯文旅开放平台'],
-          [
-            '/skyxchen/项目/App业务表单可视化搭建平台',
-            'App业务表单可视化搭建平台'
-          ],
-          ['/skyxchen/项目/Vue自定义二开表单', 'Vue自定义二开表单'],
-          ['/skyxchen/项目/H5自定义表单', 'H5自定义表单'],
-          ['/skyxchen/项目/APP内嵌查询', 'APP内嵌查询'],
-          ['/skyxchen/项目/费控中心', '费控中心'],
-          ['/skyxchen/项目/通用帮助', '通用帮助'],
-          ['/skyxchen/项目/时间尺', '时间尺']
-        ]
-      },
-      {
-        title: '项目沉淀', // 必要的
-        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 2, // 可选的, 默认值是 1
-        children: [
-          ['/skyxchen/项目沉淀/CSS相关/CSS技巧', 'CSS技巧'],
-          ['/skyxchen/项目沉淀/git/git操作', 'git操作'],
-          ['/skyxchen/项目沉淀/docker操作', 'docker操作'],
-          ['/skyxchen/项目沉淀/正则表达式', '正则表达式'],
-          ['/skyxchen/项目沉淀/ESLint总结', 'ESLint总结'],
-          ['/skyxchen/项目沉淀/fbi 3.x源码解读', 'fbi 3.x源码解读'],
-          ['/skyxchen/项目沉淀/Flow', 'Flow'],
-          ['/skyxchen/项目沉淀/Typescript 总结', 'Typescript 总结'],
-          ['/skyxchen/项目沉淀/sed操作文件', 'sed操作文件'],
-          [
-            '/skyxchen/项目沉淀/history路由模式下的nginx配置',
-            'history路由模式下的nginx配置'
-          ]
-        ]
-      },
+      ['/skyxchen/easy-cli', 'easy-cli'],
+      ['/skyxchen/markdown格式化工具', 'markdown格式化工具'],
       {
         title: '前端基础', // 必要的
         // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
@@ -107,9 +68,58 @@ module.exports = {
           ['/skyxchen/Node/AST开发', 'AST开发']
         ]
       },
-      ['/skyxchen/easy-cli', 'easy-cli'],
-      ['/skyxchen/markdown格式化工具', 'markdown格式化工具'],
-      ['/skyxchen/常用算法', '常用算法']
+      {
+        title: '微信小程序', // 必要的
+        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [
+          ['/skyxchen/微信小程序/小程序入门', '小程序入门'],
+          ['/skyxchen/微信小程序/小程序官方功能', '小程序官方功能']
+        ]
+      },
+      ['/skyxchen/常用算法', '常用算法'],
+      {
+        title: '项目沉淀', // 必要的
+        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [
+          ['/skyxchen/项目沉淀/CSS相关/CSS技巧', 'CSS技巧'],
+          ['/skyxchen/项目沉淀/git/git操作', 'git操作'],
+          ['/skyxchen/项目沉淀/docker操作', 'docker操作'],
+          ['/skyxchen/项目沉淀/正则表达式', '正则表达式'],
+          ['/skyxchen/项目沉淀/ESLint总结', 'ESLint总结'],
+          ['/skyxchen/项目沉淀/fbi 3.x源码解读', 'fbi 3.x源码解读'],
+          ['/skyxchen/项目沉淀/Flow', 'Flow'],
+          ['/skyxchen/项目沉淀/Typescript 总结', 'Typescript 总结'],
+          ['/skyxchen/项目沉淀/sed操作文件', 'sed操作文件'],
+          [
+            '/skyxchen/项目沉淀/history路由模式下的nginx配置',
+            'history路由模式下的nginx配置'
+          ]
+        ]
+      },
+      {
+        title: '项目', // 必要的
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [
+          ['/skyxchen/项目/fbi工作流', 'fbi工作流'],
+          ['/skyxchen/项目/平潭深度画像系统', '平潭深度画像系统'],
+          ['/skyxchen/项目/腾讯文旅开放平台', '腾讯文旅开放平台'],
+          [
+            '/skyxchen/项目/App业务表单可视化搭建平台',
+            'App业务表单可视化搭建平台'
+          ],
+          ['/skyxchen/项目/Vue自定义二开表单', 'Vue自定义二开表单'],
+          ['/skyxchen/项目/H5自定义表单', 'H5自定义表单'],
+          ['/skyxchen/项目/APP内嵌查询', 'APP内嵌查询'],
+          ['/skyxchen/项目/费控中心', '费控中心'],
+          ['/skyxchen/项目/通用帮助', '通用帮助'],
+          ['/skyxchen/项目/时间尺', '时间尺']
+        ]
+      }
     ]
   }
 }
