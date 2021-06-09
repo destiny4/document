@@ -33,7 +33,16 @@ module.exports = {
     logo: '/me.jpeg',
     nav: [{ text: '主页', link: '/' }],
     sidebar: [
-      ['/skyxchen/easy-cli', 'easy-cli'],
+      {
+        title: 'easy-cli', // 必要的
+        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [
+          ['/skyxchen/easy-cli/easy-cli', '简介'],
+          ['/skyxchen/easy-cli/generate', 'generate']
+        ]
+      },
       ['/skyxchen/markdown格式化工具', 'markdown格式化工具'],
       {
         title: '前端基础', // 必要的
@@ -49,6 +58,17 @@ module.exports = {
         ]
       },
       {
+        title: 'Babel', // 必要的
+        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [
+          ['/skyxchen/Babel/babel-polyfill', 'polyfill'],
+          ['/skyxchen/Babel/Babel配置文件', '配置文件'],
+          ['/skyxchen/Babel/Babel预设与插件的选择', '预设与插件']
+        ]
+      },
+      {
         title: 'React', // 必要的
         // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
@@ -56,6 +76,16 @@ module.exports = {
         children: [
           ['/skyxchen/React/react基础', 'react基础'],
           ['/skyxchen/React/react扩展', 'react扩展']
+        ]
+      },
+      {
+        title: 'Vue', // 必要的
+        // path: '/foo/', // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2, // 可选的, 默认值是 1
+        children: [
+          ['/skyxchen/Vue/Vue3', 'Vue3'],
+          ['/skyxchen/Vue/总结', '总结']
         ]
       },
       {
@@ -87,6 +117,7 @@ module.exports = {
         children: [
           ['/skyxchen/项目沉淀/CSS相关/CSS技巧', 'CSS技巧'],
           ['/skyxchen/项目沉淀/git/git操作', 'git操作'],
+          ['/skyxchen/项目沉淀/浏览器沙盒实现', '浏览器沙盒实现'],
           ['/skyxchen/项目沉淀/docker操作', 'docker操作'],
           ['/skyxchen/项目沉淀/正则表达式', '正则表达式'],
           ['/skyxchen/项目沉淀/ESLint总结', 'ESLint总结'],
